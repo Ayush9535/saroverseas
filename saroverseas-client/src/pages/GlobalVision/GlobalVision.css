@@ -1,0 +1,148 @@
+
+.global-vision-section {
+  padding: 70px 100px 80px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Title Row */
+.global-vision-title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 28px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards;
+}
+
+.title-main {
+  font-weight: 100;
+  font-size: clamp(52px, 7vw, 92px);
+  color: #2b2d5e;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.title-sub {
+  font-weight: 300;
+  font-size: 3vw;
+  color: #d4880a;
+  letter-spacing: 0.01em;
+}
+
+/* Description */
+.global-vision-desc {
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.8;
+  max-width: 800px;
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease 0.15s forwards;
+}
+
+/* Image + Dots Row */
+.global-vision-bottom {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  animation: fadeUp 0.9s ease 0.3s forwards;
+}
+
+.global-vision-image {
+  width: 58%;
+  max-width: 700px;
+  border-radius: 4px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.circle-img-about{
+    width: 40%;
+    max-width: 700px;
+    margin-left: 5vw;
+}
+
+/* Dots decoration area */
+.vision-dots-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.dots-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+  flex-shrink: 0;
+}
+
+.dot-circle-wrapper {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  border: 1.5px solid #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dot-circle-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #d4880a;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .global-vision-section {
+    padding: 50px 30px 60px;
+  }
+
+  .global-vision-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .global-vision-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .global-vision-desc{
+    font-size: 4vw;
+  }
+
+  .title-sub{
+    font-size: 4vw;
+  }
+
+  .circle-img-about{
+    width: 60%;
+  }
+
+  .vision-dots-area {
+    justify-content: flex-start;
+    padding-right: 0;
+  }
+}

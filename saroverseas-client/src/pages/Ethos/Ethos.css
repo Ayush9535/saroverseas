@@ -1,0 +1,139 @@
+.sar-section {
+  padding: 60px 100px 80px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top area: dots image left, SAR + tagline right */
+.sar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.sar-dots-image {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  transform: rotate(180deg);
+}
+
+.sar-heading-block {
+  text-align: right;
+  flex: 1;
+  padding-left: 40px;
+}
+
+.sar-title {
+  font-size: clamp(64px, 8vw, 110px);
+  font-weight: 100;
+  color: #2b2d5e;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  margin: 0 0 10px 0;
+}
+
+.sar-tagline {
+  font-size: clamp(30px, 2vw, 24px);
+  font-weight: 300;
+  color: #d4880a;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Values list */
+.sar-values {
+  max-width: 860px;
+  margin: 0 auto 0 160px;
+}
+
+.long-dots-image{
+    max-width: 860px;
+    margin: 80px auto 0 160px;
+}
+
+.sar-value-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.sar-value-item:nth-child(1) { animation-delay: 0.15s; }
+.sar-value-item:nth-child(2) { animation-delay: 0.3s; }
+
+.sar-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.sar-value-text {
+  flex: 1;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d4880a;
+  margin-bottom: 30px;
+}
+
+.sar-value-item:last-child .sar-value-text {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sar-value-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.01em;
+}
+
+.sar-value-desc {
+  font-size: 15px;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .sar-section {
+    padding: 50px 30px 60px;
+  }
+
+  .sar-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .sar-heading-block {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .sar-values {
+    margin-left: 0;
+  }
+
+  .sar-value-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

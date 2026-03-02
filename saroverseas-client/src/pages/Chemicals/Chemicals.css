@@ -1,0 +1,168 @@
+/* ReliablePartner */
+
+.rp-section {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 8vh 0;
+}
+
+.rp-container {
+  width: 90%;
+  max-width: 77vw;
+  margin: 0 auto;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rp-content {
+  flex: 1;
+}
+
+.rp-title {
+  font-size: clamp(2.4rem, 5.5vw, 7vw);
+  font-weight: 100;
+  color: #3a4a7a;
+  line-height: 1.1;
+  margin: 0 0 1.2vh 0;
+  letter-spacing: -0.01em;
+}
+
+.rp-subtitle {
+  font-size: clamp(1.2rem, 2.4vw, 3vw);
+  font-weight: 300;
+  color: #e6a817;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.rp-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(10px, 1.2vh, 18px);
+  flex-shrink: 0;
+  padding-right: 1vw;
+}
+
+.rp-dots img {
+  height: 20vh;
+}
+
+@media (max-width: 1024px) {
+  .rp-container {
+    max-width: 90vw;
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .rp-title {
+    font-size: clamp(2rem, 8vw, 10vw);
+  }
+
+  .rp-subtitle {
+    font-size: clamp(1rem, 4vw, 5vw);
+  }
+}
+
+@media (max-width: 480px) {
+  .rp-section {
+    padding: 6vh 0;
+  }
+
+  .rp-container {
+    padding: 0 6vw;
+  }
+
+  .rp-title {
+    font-size: clamp(1.8rem, 10vw, 12vw);
+  }
+
+  .rp-subtitle {
+    font-size: clamp(1rem, 5vw, 6vw);
+  }
+}
+
+/* ProductsGrid */
+
+.pg-section {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 15vh 0 9vh;
+}
+
+.pg-container {
+  width: 90%;
+  max-width: 75vw;
+  margin: 0 auto;
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.pg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5vw 5vw;
+}
+
+.pg-grid--centered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.pg-grid--centered .pc-card {
+  width: calc((100% - 6vw) / 3);
+}
+
+@media (max-width: 1024px) {
+  .pg-container {
+    max-width: 92vw;
+    padding: 0 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .pg-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4vw;
+  }
+
+  .pg-grid--centered {
+    gap: 4vw;
+  }
+
+  .pg-grid--centered .pc-card {
+    width: calc((100% - 4vw) / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .pg-section {
+    padding: 5vh 0 7vh;
+  }
+
+  .pg-container {
+    gap: 5vh;
+    padding: 0 4vw;
+  }
+
+  .pg-grid {
+    grid-template-columns: 1fr;
+    gap: 5vh;
+  }
+
+  .pg-grid--centered {
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .pg-grid--centered .pc-card {
+    width: 100%;
+  }
+}

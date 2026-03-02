@@ -1,0 +1,188 @@
+/* IndustriesGrid.css */
+
+.ig-section {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 6vh 0 10vh;
+}
+
+.ig-container {
+  width: 90%;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0 2vw;
+}
+
+/* ── Heading ── */
+.ig-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5vw;
+  margin-bottom: 6vh;
+}
+
+.ig-title {
+  font-size: clamp(2.4rem, 5.5vw, 7vw);
+  font-weight: 100;
+  color: #3a4a7a;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.ig-subtitle {
+  font-size: clamp(1rem, 2vw, 2.6vw);
+  font-weight: 300;
+  color: #e6a817;
+  line-height: 1.2;
+}
+
+/* ── Outer layout: grid + deco column ── */
+.ig-layout {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+
+/* ── Grid side ── */
+.ig-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+/* Each row of 6 */
+.ig-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2vh 1vw;
+}
+
+/* Each industry cell */
+.ig-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.4vh;
+}
+
+.ig-item--empty {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Icon */
+.ig-icon {
+  width: clamp(40px, 4vw, 64px);
+  height: clamp(40px, 4vw, 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ig-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Label */
+.ig-label {
+  font-size: clamp(0.78rem, 0.9vw, 1.15vw);
+  color: #333333;
+  font-weight: 400;
+  line-height: 1.35;
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* Gold rule under each item */
+.ig-rule {
+  width: clamp(28px, 2.8vw, 44px);
+  height: 2.5px;
+  background-color: #e6a817;
+  margin-top: auto;
+}
+
+/* ── Decoration column — right side ── */
+.ig-deco-col {
+  flex-shrink: 0;
+  width: clamp(50px, 5vw, 80px);
+  position: relative;
+  align-self: stretch;
+}
+
+.ig-deco-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: top right;
+  display: block;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1100px) {
+  .ig-container {
+    max-width: 92vw;
+  }
+
+  .ig-row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ig-heading {
+    flex-direction: column;
+    gap: 0.8vh;
+  }
+
+  .ig-title {
+    font-size: clamp(2rem, 8vw, 10vw);
+  }
+
+  .ig-subtitle {
+    font-size: clamp(0.95rem, 3.5vw, 4.5vw);
+  }
+
+  .ig-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vh 2vw;
+  }
+
+  .ig-label {
+    font-size: clamp(0.75rem, 2.5vw, 3.2vw);
+  }
+
+  .ig-deco-col {
+    width: clamp(36px, 6vw, 60px);
+  }
+}
+
+@media (max-width: 480px) {
+  .ig-container {
+    padding: 0 4vw;
+  }
+
+  .ig-layout {
+    flex-direction: column;
+  }
+
+  .ig-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4vh 4vw;
+  }
+
+  .ig-label {
+    font-size: clamp(0.78rem, 3.5vw, 4.2vw);
+  }
+
+  .ig-deco-col {
+    display: none;
+  }
+}

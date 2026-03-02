@@ -1,0 +1,249 @@
+/* RestAssured.css */
+
+.ra-section {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 6vh 0 8vh;
+}
+
+.ra-container {
+  width: 90%;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0 5vw;
+}
+
+/* ── Top row ── */
+.ra-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+  gap: 2vw;
+  margin-top: 10vh;
+}
+
+.ra-heading-block {
+  flex: 1;
+}
+
+.ra-title {
+  font-size: clamp(2rem, 5vw, 6.5vw);
+  font-weight: 100;
+  color: #3a4a7a;
+  line-height: 1.1;
+  margin: 0 0 1vh 0;
+  letter-spacing: -0.01em;
+}
+
+.ra-subtitle {
+  font-size: clamp(1rem, 2.4vw, 2.8vw);
+  font-weight: 300;
+  color: #e6a817;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* ── Decoration (arc + dots) ── */
+.ra-decoration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: clamp(180px, 25vw, 350px);
+  gap: 1vh;
+  margin-right: 10vw;
+}
+
+.decor-image{
+    width: 100%;
+}
+
+.ra-arc {
+  width: 100%;
+  height: auto;
+}
+
+.sec-sep{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0;
+}
+
+.lower img{
+    width: 70%;
+}
+
+.ra-dots {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: clamp(6px, 0.8vw, 14px);
+  align-self: flex-end;
+  padding-right: 0.5vw;
+}
+
+.ra-dot {
+  width: clamp(6px, 0.6vw, 10px);
+  height: clamp(6px, 0.6vw, 10px);
+  border-radius: 50%;
+  background-color: #cccccc;
+  display: block;
+}
+
+.ra-dot--active {
+  background-color: #e6a817;
+}
+
+/* ── Body row ── */
+.ra-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 6vw;
+}
+
+.revert{
+    flex-direction: row-reverse;
+}
+
+/* Left text */
+.ra-content {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ra-block {
+  margin-bottom: 1vh;
+}
+
+.ra-block-title {
+  font-size: clamp(1rem, 1.5vw, 1.9vw);
+  font-weight: 800;
+  color: #222222;
+  letter-spacing: 0.04em;
+  margin: 0 0 1.5vh 0;
+  line-height: 1.2;
+}
+
+.ra-block-text {
+  font-size: clamp(0.85rem, 1.1vw, 1.4vw);
+  color: #555555;
+  line-height: 1.7;
+  margin: 0 0 2vh 0;
+}
+
+.ra-block-rule {
+  width: clamp(36px, 3.5vw, 56px);
+  height: 2.5px;
+  background-color: #e6a817;
+  margin-bottom: 3.5vh;
+}
+
+/* Right images */
+.ra-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  align-items: flex-end;
+}
+
+.revert-imgs{
+    align-items: flex-start;
+}
+
+.ra-img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .ra-container {
+    max-width: 90vw;
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .ra-top {
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .ra-decoration {
+    width: clamp(120px, 40vw, 200px);
+    align-self: flex-end;
+  }
+
+  .ra-title {
+    font-size: clamp(2rem, 8vw, 10vw);
+  }
+
+  .ra-subtitle {
+    font-size: clamp(1rem, 3.5vw, 4.5vw);
+  }
+
+  .ra-body {
+    flex-direction: column;
+    gap: 4vh;
+  }
+
+  .ra-block-title {
+    font-size: clamp(1rem, 3vw, 3.8vw);
+  }
+
+  .ra-block-text {
+    font-size: clamp(0.85rem, 2.5vw, 3.2vw);
+  }
+
+  .ra-images {
+    flex-direction: row;
+    gap: 2vw;
+  }
+
+  .ra-img {
+    height: clamp(100px, 20vw, 200px);
+  }
+
+  .sec-sep img{
+    width: 60%;
+}
+
+.lower img{
+    width: 70%;
+}
+}
+
+@media (max-width: 480px) {
+  .ra-container {
+    padding: 0 6vw;
+  }
+
+  .ra-title {
+    font-size: clamp(1.8rem, 10vw, 12vw);
+  }
+
+  .ra-subtitle {
+    font-size: clamp(0.95rem, 4.5vw, 5.5vw);
+  }
+
+  .ra-block-title {
+    font-size: clamp(0.95rem, 4vw, 5vw);
+  }
+
+  .ra-block-text {
+    font-size: clamp(0.82rem, 3.5vw, 4.2vw);
+  }
+
+  .ra-images {
+    flex-direction: column;
+  }
+
+  .ra-img {
+    height: clamp(160px, 40vw, 260px);
+  }
+}

@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "abbr": "PVC",
+    "slug": "pvc",
+    "type": "polymers",
+    "name": "Polyvinyl Chloride",
+    "image": "/images/pvc.jpeg",
+    "images": ["/images/PVC1.jpg", "/images/PVC2.jpg", "/images/PVC3.jpg"],
+    "description": "PVC is used extensively across a broad range of industrial, technical, and everyday applications, including widespread use in building, transport, packaging, electrical/electronic, and healthcare applications.",
+    "applications": [
+      "Pipes & Fittings, Window Frames, House Siding, Ports and Roofing",
+      "Blister Packs, Transparent Packs and Cling Film",
+      "Flooring, Cables, and Wiring",
+      "Tubing for Blood Transfusions, Drips, and Dialysis Liquids",
+      "Packing, Credit Cards, Toys, and Sporting Goods"
+    ]
+  },
+  {
+    "id": 2,
+    "abbr": "HDPE",
+    "slug": "hdpe",
+    "type": "polymers",
+    "name": "High-Density Polyethylene",
+    "image": "/images/hdpe.jpeg",
+    "images": ["/images/HDPE1.jpg", "/images/HDPE2.jpg", "/images/HDPE3.jpg"],
+    "description": "HDPE is an easy choice for packaging manufacturers looking to deliver reliable yet sustainable solutions, given that its characteristics allow for less material to be used.",
+    "applications": [
+      "Milk or juice containers and industrial drums",
+      "Caps for food packaging, Jerry Cans, Drums, motor oil, personal care and cleaning products",
+      "Pipes for water and gas transportation",
+      "Crates and industrial pellets, Lines and carry bags",
+      "Raffia Tapes for Woven Sacks & Tarpaulin, Monofilament for Nets, Twines & Ropes"
+    ]
+  },
+  {
+    "id": 3,
+    "abbr": "LDPE",
+    "slug": "ldpe",
+    "type": "polymers",
+    "name": "Low-Density Polyethylene",
+    "image": "/images/ldpe.png",
+    "images": ["/images/LDPE1.jpg", "/images/LDPE2.jpg", "/images/LDPE3.jpg"],
+    "description": "LDPE is a relatively stable plastic that appears semi-rigid and is known for its robustness, making it a high-utility plastic. LDPE is a branched polymer material that mainly goes into flexible packaging applications.",
+    "applications": [
+      "Packaging industry for pharmaceutical and squeeze bottles",
+      "Caps and closures",
+      "Tamper evident, liners, trash bags",
+      "Films for food packaging (frozen, dry goods, etc.)"
+    ]
+  },
+  {
+    "id": 4,
+    "abbr": "LLDPE",
+    "slug": "lldpe",
+    "type": "polymers",
+    "name": "Linear Low-Density Polyethylene",
+    "image": "/images/lldpe.jpeg",
+    "images": ["/images/LLDPE1.jpg", "/images/LLDPE2.jpg", "/images/LLDPE3.jpg"],
+    "description": "LLDPE resins occur in the form of odorless white granules. These can then be processed by extrusion, injection moulding and/or blow and cast film.",
+    "applications": [
+      "Suitable for a variety of film application such as general-purpose film stretch film, garment packaging, agricultural film, Liquid Packaging Films, Heavy Duty Films",
+      "Films for food packaging",
+      "Milk Packaging",
+      "Tarpaulin",
+      "Merchandizing Bags, General purpose textile packaging, Grocery & Snack food packaging",
+      "Thin walled Food Containers, Lids"
+    ]
+  },
+  {
+    "id": 5,
+    "abbr": "PP",
+    "slug": "pp",
+    "type": "polymers",
+    "name": "Polypropylene",
+    "image": "/images/pp.png",
+    "images": ["/images/PP1.jpg", "/images/PP2.jpg", "/images/PP3.jpg"],
+    "description": "PP polymer are popular due to its highly flexible properties, lighter density and ability to adapt to a range of fabrication techniques, polypropylene is molded or extruded into many plastic products in which toughness, flexibility, light weight, and heat resistance are required.",
+    "applications": [
+      "Housewares, Consumer Products, Packaging",
+      "Battery casing",
+      "Cement/Fertilizer/Food grain packaging bags, Bulk industrial packaging",
+      "Automotive parts, bumpers, door trims",
+      "Water Quenched film",
+      "Industrial crates & pallets",
+      "Fibers, ropes, twines",
+      "Medical syringes"
+    ]
+  },
+  {
+    "id": 6,
+    "abbr": "PET",
+    "slug": "pet",
+    "type": "polymers",
+    "name": "Polyethylene Terephthalate",
+    "image": "/images/pet.png",
+    "images": ["/images/PET1.jpg", "/images/PET2.jpg", "/images/PET3.jpg"],
+    "description": "Exceptionally popular as a packaging material across the beverage, food and liquids sectors, PET (Polyethylene Terephthalate) is easily recyclable, lightweight, transparent and strong.",
+    "applications": [
+      "Household goods containers & cosmetics bottles",
+      "Bottles for carbonated soft drinks",
+      "Mineral water bottle, and caps",
+      "Transparent sheets",
+      "Films and Food packaging trays"
+    ]
+  },
+  {
+    "id": 7,
+    "abbr": "EVA",
+    "slug": "eva",
+    "type": "polymers",
+    "name": "Ethylene Vinyl Acetate",
+    "image": "/images/eva.png",
+    "images": ["/images/EVA1.jpg", "/images/EVA2.jpg", "/images/EVA3.jpg"],
+    "description": "The higher the VA content the more rubber-like the EVA resin is. It is an elastomeric polymer that produces rubber-like materials that are known for their soft and flexible properties.",
+    "applications": [
+      "Footwear manufacturing",
+      "Automotive bumpers",
+      "Hot melt adhesives, film, foams",
+      "Flexible rubbery water toys and sports equipment",
+      "Flexible product packaging",
+      "Molded automobile parts",
+      "Flexible hose",
+      "Medical Packaging"
+    ]
+  },
+  {
+    "id": 8,
+    "abbr": "CPVC",
+    "slug": "cpvc",
+    "type": "polymers",
+    "name": "Chlorinated Polyvinyl Chloride",
+    "image": "/images/cpvc.png",
+    "images": ["/images/CPVC1.jpg", "/images/CPVC2.jpg", "/images/CPVC3.jpg"],
+    "description": "Chlorinated polyvinyl chloride (CPVC) is a thermoplastic produced by chlorination of polyvinyl chloride (PVC) resin. CPVC is significantly more flexible than PVC, and can also withstand higher temperatures. Uses include hot and cold water delivery pipes and industrial liquid handling.",
+    "applications": [
+      "CPVC Pipe and Fittings"
+    ]
+  },
+  {
+    "id": 9,
+    "abbr": "Plasticizers",
+    "slug": "plasticizers",
+    "type": "polymers",
+    "name": "Plasticizers",
+    "image": "/images/plasticisers.png",
+    "images": ["/images/Plasticizers1.jpg", "/images/Plasticizers2.jpg", "/images/Plasticizers3.jpg"],
+    "description": "Plasticizers are organic compounds added to polymers to facilitate processing and to increase the flexibility and toughness of the final product by internal modification of the polymer molecule. DINP, DOTP DOP.",
+    "applications": [
+      "PVC Wire and Cable",
+      "PVC Flexible Film",
+      "Leather Cloth, PVC Flex Banner",
+      "Suction-Tubing, Medical Tubing",
+      "Garden Pipe, Automobile Part, Footwear, Flooring, Toys, Furniture, Food packaging, Lubricants, Vinyl Flooring etc."
+    ]
+  },
+  {
+    "id": 10,
+    "abbr": "PC",
+    "slug": "pc",
+    "type": "polymers",
+    "name": "Polycarbonate",
+    "image": "/images/pc.png",
+    "images": ["/images/PC1.jpg", "/images/PC2.jpg", "/images/PC3.jpg"],
+    "description": "Polycarbonate is an excellent engineering polymer. PC has a good balance of properties, with good temperature resistance, excellent impact resistance and also superb optical properties.",
+    "applications": [
+      "Polycarbonate is commonly used in electronic applications, it is widely used in various products associated with electrical and telecommunications equipment.",
+      "Other applications are numerous and include lenses, automotive lighting, CD discs, safety helmets, electrical components, mobile phones, medical products, domestic goods, aerospace and defence applications."
+    ]
+  },
+  {
+    "id": 11,
+    "abbr": "ABS",
+    "slug": "abs",
+    "type": "polymers",
+    "name": "Acrylonitrile Butadiene Styrene",
+    "image": "/images/abs.png",
+    "images": ["/images/ABS1.jpg", "/images/ABS2.jpg", "/images/ABS3.jpg"],
+    "description": "ABS is a classic all-rounder with a good blend of performance and also aesthetic properties. ABS is hard and reasonably tough (even at low temperatures); easily processed, giving good gloss, good surface appearance and scuff resistance.",
+    "applications": [
+      "Telecommunication applications, domestic appliances e.g. vacuum cleaners",
+      "Garden equipment, pipe, lawnmower housings",
+      "Automotive parts, washing machine parts"
+    ]
+  },
+  {
+    "id": 12,
+    "abbr": "NaOH",
+    "slug": "caustic-soda",
+    "type": "chemicals",
+    "name": "Caustic Soda",
+    "image": "/images/causticsoda.png",
+    "images": ["/images/CausticSoda1.jpg", "/images/CausticSoda2.jpg", "/images/CausticSoda3.jpg"],
+    "description": "Caustic Soda (Sodium Hydroxide, NaOH) is a highly versatile strong base and one of the most widely used industrial chemicals. It is available in flakes, pellets, and liquid form, and plays a critical role in numerous chemical manufacturing processes due to its strong alkaline nature.",
+    "applications": [
+      "Soap and detergent manufacturing",
+      "Paper and pulp industry (kraft process)",
+      "Water treatment and pH regulation",
+      "Textile processing and mercerization",
+      "Alumina production from bauxite",
+      "Chemical synthesis and neutralization processes",
+      "Food processing (e.g., curing olives, pretzel glazing)"
+    ]
+  },
+  {
+    "id": 13,
+    "abbr": "CH3OH",
+    "slug": "methanol",
+    "type": "chemicals",
+    "name": "Methanol",
+    "image": "/images/methanol.png",
+    "images": ["/images/Methanol1.jpg", "/images/Methanol2.jpg", "/images/Methanol3.jpg"],
+    "description": "Methanol (CH3OH), also known as methyl alcohol or wood alcohol, is the simplest alcohol and a light, colorless, volatile flammable liquid. It is produced primarily from natural gas and is one of the most important chemical feedstocks globally, used as a fuel, solvent, and industrial chemical intermediate.",
+    "applications": [
+      "Feedstock for formaldehyde, acetic acid, and other chemicals",
+      "Biodiesel production (transesterification)",
+      "Fuel blending and direct fuel use",
+      "Solvent in pharmaceuticals and chemical manufacturing",
+      "Production of MTBE and TAME fuel additives",
+      "Antifreeze and windshield washer fluid",
+      "Wastewater denitrification"
+    ]
+  },
+  {
+    "id": 14,
+    "abbr": "S",
+    "slug": "sulfur",
+    "type": "chemicals",
+    "name": "Sulfur",
+    "image": "/images/sulfur.png",
+    "images": ["/images/Sulfur1.jpg", "/images/Sulfur2.jpg", "/images/Sulfur3.jpg"],
+    "description": "Sulfur is a naturally abundant, multivalent non-metal element that is essential to many industries. It is most commonly encountered as a yellow crystalline solid and is primarily recovered as a byproduct of oil and gas processing. Sulfur is a key raw material in the production of sulfuric acid, the world's most widely produced industrial chemical.",
+    "applications": [
+      "Production of sulfuric acid (H2SO4)",
+      "Fertilizer manufacturing (ammonium sulfate, superphosphate)",
+      "Vulcanization of rubber",
+      "Fungicides and pesticides in agriculture",
+      "Pharmaceuticals and fine chemicals",
+      "Paper and pulp bleaching",
+      "Explosives and matchstick manufacturing"
+    ]
+  }
+]

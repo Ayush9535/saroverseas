@@ -1,0 +1,21 @@
+.hero{
+  width:100%;
+  height: calc(80vh - var(--navbar-height));
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-position: var(--hero-pos, center center);
+  background-repeat: no-repeat;
+  display:block;
+}
+
+@media (max-width: 600px) {
+  .hero{
+    background-image: var(--hero-bg-mobile);
+    background-position: var(--hero-pos-mobile, center center);
+  }
+}
+
+/* small adjustment for very small screens where navbar might be taller */
+@media (max-width:42vh){
+  .hero{height: calc(100vh - (var(--navbar-height) + 1vh));}
+}
