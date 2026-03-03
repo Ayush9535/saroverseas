@@ -60,7 +60,7 @@ export default function ParentCompany() {
             <img
               src={"/images/Parmar-logo.png"}
               alt="Parmar Logo"              loading="lazy"            />
-            <span className="parmar-logo-name">PARMAR</span>
+            
           </div>
         </section>
       </main>
