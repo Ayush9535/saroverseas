@@ -49,6 +49,26 @@
   padding-bottom: 2.5vh;
 }
 
+/* Address block with pin icon */
+.ci-address {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 1.8vh;
+}
+
+.ci-pin {
+  color: #e6a817;
+  font-size: 10px;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.ci-address .ci-strong {
+  margin: 0;
+}
+
 /* Gold rule between blocks */
 .ci-rule {
   width: clamp(36px, 3.5vw, 56px);

@@ -52,10 +52,10 @@
   gap: 4vh;
 }
 
-/* Each row of 6 */
+/* Each row of 5 */
 .ig-row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2vh 1vw;
 }
 
@@ -96,6 +96,16 @@
   line-height: 1.35;
   margin: 0;
   white-space: pre-line;
+}
+
+/* ...and many more */
+.ig-more {
+  text-align: right;
+  font-size: clamp(0.85rem, 1vw, 1.2vw);
+  font-weight: 600;
+  color: #e6a817;
+  margin-top: 8vh;
+  font-style: italic;
 }
 
 /* Gold rule under each item */

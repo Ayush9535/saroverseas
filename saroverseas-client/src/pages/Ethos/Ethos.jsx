@@ -9,21 +9,21 @@ export default function Ethos() {
       icon: "/images/Icon3-1.png",
       iconAlt: 'Driven icon',
       title: 'Driven',
-      desc: 'A team of highly motivated, highly involved and highly passionate professionals to deliver nothing but the best to our clients.',
+      desc: 'A passionate, hands-on team that goes the extra mile to deliver the best - every single time.',
     },
     {
       id: 2,
       icon: "/images/Icon3-2.png",
       iconAlt: 'Committed icon',
-      title: 'Commited consistantly',
-      desc: "We believe in winning our clients' trust by delivering on our commitments, going as far as it takes every single time. Our commitment defines us.",
+      title: 'Committed',
+      desc: "We stand by our word. Every promise made is a promise kept - no matter what it takes.",
     },
     {
       id: 3,
       icon: "/images/Icon3-3.png",
       iconAlt: 'Excellence icon',
       title: 'Excellence',
-      desc: "Everything we do is rooted in doing our best, on a day-to-day basis. Excellence is a daily routine we engage in.",
+      desc: "We work as one - pushing each other to deliver excellence every day.",
     },
     {
       id: 4,
@@ -36,8 +36,8 @@ export default function Ethos() {
       id: 5,
       icon: "/images/Icon3-5.png",
       iconAlt: 'Transparency icon',
-      title: 'Transparency',
-      desc: "Transparency aids trust. We build that with our clients every step of way to create a fulfilling customer journey.",
+      title: 'Transparent',
+      desc: "We keep things clear and honest - because trust begins with transparency.",
     },
   ];
 

@@ -28,8 +28,8 @@ export default function ContactUs(){
           <div className="ci-block">
             <p className="ci-line">
               Write to us at{" "}
-              <a href="mailto:sar@saroverseas.com" className="ci-link">
-                sar@saroverseas.com
+              <a href="mailto:connect@saroverseas.com" className="ci-link">
+                connect@saroverseas.com
               </a>
             </p>
           </div>
@@ -45,25 +45,37 @@ export default function ContactUs(){
           <div className="ci-rule" />
 
           <div className="ci-block">
-            <p className="ci-label">Registered Office:</p>
+            <p className="ci-label">Our Offices:</p>
+          </div>
+
+          <div className="ci-block ci-address">
+            <span className="ci-pin">&#9679;</span>
             <p className="ci-strong">
-              Amelia House, Crescent Road, Worthing, UK,
+              Amelia House, Crescent Road, Worthing,
+United Kingdom
             </p>
+          </div>
+          <div className="ci-block ci-address">
+            <span className="ci-pin" style={{visibility: "hidden"}} >&#9679;</span>
             <p className="ci-strong">
               <span className="ci-strong">Pin Code</span>
-              {" – "}BN11 1RL
+              {" – "}BN111RL
             </p>
           </div>
 
-          <div className="ci-rule" />
-
-          <div className="ci-block">
-            <p className="ci-label">Corporate Office:</p>
-            <p className="ci-strong">407, Kingdom Tower 1,</p>
+          <div className="ci-block ci-address">
+            <span className="ci-pin">&#9679;</span>
             <p className="ci-strong">
-              One Kingdom Street, Paddington, in Code– W2 6BD
+              LB03121 Jebel Ali Freezone Dubai, UAE
             </p>
-            <p className="ci-strong">UK</p>
+          </div>
+
+          <div className="ci-block ci-address">
+            <span className="ci-pin">&#9679;</span>
+            <p className="ci-strong">
+              Shangri-La Centre, Hong Kong Middle Road,
+Shinan District, Qingdao, China
+            </p>
           </div>
 
         </div>

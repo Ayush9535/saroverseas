@@ -46,22 +46,23 @@ export default function Footer(){
             <div className='footer-content-left'>
                 <div className='footer-col'>
                     <div className="office">
-                        <h4>Registered Office:</h4>
-                        <p>Amelia House, Crescent Road,<br/>Worthing, UK. Pin Code: BN11 1RL</p>
+                        <p>📍 Amelia House, Crescent Road, Worthing,<br/>United Kingdom – BN111RL</p>
                     </div>
 
                     <div className="office">
-                        <h4>Corporate Office:</h4>
-                        <p>407, Kingdom Tower I,<br/>One Kingdom Street, Paddington,<br/>Pin Code - W2 6BD, UK</p>
+                        <p>📍 LB03121 Jebel Ali Freezone Dubai, UAE</p>
+                    </div>
+
+                    <div className="office">
+                        <p>📍 Shangri-La Centre, Hong Kong Middle Road,<br/>Shinan District, Qingdao, China</p>
                     </div>
 
                     <div className="copyright">©2026 Copyright. All rights reserved.</div>
 
                 </div>
                 <div className="footer-col footer-center">
-                    <div className="contact-line">📱 +44-7488883088</div>
-                    <div className="contact-line">📞 +44-1293227670</div>
-                    <div className="contact-line">✉️ sar@saroverseas.com</div>
+                    <div className="contact-line">✉️ connect@saroverseas.com</div>
+                    <div className="contact-line">🌐 www.saroverseas.com</div>
                 </div>
             </div>
         </div>

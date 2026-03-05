@@ -18,7 +18,7 @@ export default function ParentCompany() {
 
             <div className="about-intro-right">
               <h2 className="about-intro-headline">making waves around the world</h2>
-              <img src={"images/Circle1-1.png"} alt="decorative" loading="lazy" />
+              <img src={"/images/Circle1-1.png"} alt="decorative" loading="lazy" />
             </div>
           </div>
         </section>
@@ -27,14 +27,18 @@ export default function ParentCompany() {
           {/* Text Content */}
           <div className="parmar-content">
             <p>
-              Sushila Parmar Group, our parent organization, has been heralded as one of the leading
-              players in India's polymer trade market. In 20 years this name has become synonymous with
-              Polymer Distribution in India and is known to Go for More, always.
+              With origins in India and headquarters in the UK, Sushila Parmar Group — our parent
+              organization — has been a name of trust in global polymer trade for over two decades.
+              This name has become synonymous with Polymer Distribution and is known to Go for More, always.
             </p>
             <p>
               Having played a significant role in redefining the polymer raw material landscape with
               strategic solutions, multiple products, tech integration, and the warmth of values; Sushila
               Parmar Group has a reputation to create waves in every market it enters.
+            </p>
+            <p>
+              Built on relationships, scale, and a deep understanding of global markets — our story is one
+              of reliability, speed, and long-term value.
             </p>
             <p>
               Establishing SAR, in UK is just the beginning of creating many more milestones on the

@@ -34,6 +34,10 @@ export default function Geography() {
 
             <div className="excellence-text">
               <p>
+                From <span className="highlight">Asia</span> to <span className="highlight">Africa</span> - our materials reach trusted partners across continents.
+                We understand regional needs, and deliver with precision.
+              </p>
+              <p>
                 <span className="highlight">15+</span> top global petrochemical
                 manufacturers, that aren't just the best, but
                 also the biggest, are our supply partners. We

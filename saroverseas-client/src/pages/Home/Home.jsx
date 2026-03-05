@@ -167,38 +167,31 @@ const features = [
   {
     id: 1,
     icon: "/images/Home-i1.png",
-    title: "HIGHLY EXPERIENCED",
+    title: "Experienced & Ever-Growing",
     description:
-      "Bolstering the industry's growth for over 20 years, equipped with the enriched portfolio of Sushila Parmar Group.",
+      "With 25+ years in polymer trade, we've consistently grown alongside the industry, benefiting our partners.",
   },
   {
     id: 2,
     icon: "/images/Home-i3.png",
-    title: "EVER-GROWING",
+    title: "Growth-Oriented",
     description:
-      "Earned the title of the largest distribution network in India, and now spreading wings with SAR to achieve global milestones",
+      "Strong global market presence and ambition enable us to seize emerging opportunities.",
   },
   {
     id: 3,
-    icon: "/images/Home-i4.png",
-    title: "VALUE-DRIVEN",
+    icon: "/images/Home-i5.png",
+    title: "Committed & Value Driven",
     description:
-      "Strong business values are at our core. Transparency, consistency, customer satisfaction, excellence, and long-term relationships",
+      "Our transparency and value-driven approach ensure we honor commitments to both customers and suppliers.",
   },
   {
     id: 4,
-    icon: "/images/Home-i5.png",
-    title: "TOTAL RELIABILITY",
+    icon: "/images/Home-i4.png",
+    title: "Agile & Tech-Driven",
     description:
-      "Commitment to deliver on-time-every-time, going the extra mile for customer delight with a seamless sourcing experience.",
-  },
-  {
-    id: 5,
-    icon: "/images/Home-i2.png",
-    title: "DISCIPLINED",
-    description:
-      "Financial discipline, keeping ahead in tech, and to keep innovating, Sushila Parmar Group, has an undeniable asset of discipline.",
-  },
+      "Tech-driven and responsive, we adapt swiftly to evolving market demands as a modern distribution company.",
+  }
 ];
 
   return (
@@ -224,10 +217,10 @@ const features = [
         {/* Left column */}
         <div className="ai-left">
           <p className="ai-intro-text">
-            Experience, expertise, and excellence are the cornerstones of SAR
-            Overseas. Experience hailing from the two-decade-old Sushila Parmar
-            Group, expertise with our thorough business understanding, and
-            excellence as an attitude in every single thing we do.
+            We are <strong>SAR Overseas</strong> — a trusted global partner for high-quality
+            polymers and chemicals. Headquartered in the UK and having offices in UAE &amp; China,
+            backed by Indian roots, and driven by decades of trade expertise, we are the silent
+            strength behind hundreds of manufacturers, converters, and traders across the world.
           </p>
 
           {/* 3 horizontal dots */}
@@ -238,28 +231,15 @@ const features = [
           </div>
 
           <p className="ai-body-text">
-            <strong>SAR Overseas</strong> is a global force taking businesses
-            forward with polymers and chemicals' trading internationally.
-            Superior logistics, uncompromising deliveries on-time-every-time,
-            market intelligence and a value system that strengthens associations
-            and businesses in equal measure are our core assets.
+            Our role goes beyond distribution. We bring market understanding, supply dependability,
+            and a partner-first mindset to every transaction — whether it's one container or a
+            long-term supply contract.
           </p>
 
-          <a href="/about/ethos" className="ai-read-more">
-            Read More
-            <span className="ai-read-more-icon">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#e6a817" />
-                <path
-                  d="M9 12h6M12 9l3 3-3 3"
-                  stroke="#ffffff"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </span>
-          </a>
+          <p className="ai-body-text">
+            We believe in doing business that lasts — with integrity, clarity, and speed.
+          </p>
+
         </div>
 
         {/* Right column */}
